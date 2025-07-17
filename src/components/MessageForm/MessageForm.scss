@@ -1,0 +1,32 @@
+@import '../../styles/variables';
+
+.message-form {
+  display: flex;
+  padding: 15px;
+  gap: 10px;
+  background: $glass-bg;
+  border-top: $glass-border;
+
+  .glass-input {
+    flex: 1;
+    padding: 12px 15px;
+    border-radius: 30px;
+    font-size: 1rem;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .send-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      width: 20px;
+      height: 20px;
+      color: white;
+    }
+  }
+}
