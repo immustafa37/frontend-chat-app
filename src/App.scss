@@ -1,0 +1,10 @@
+@import './styles/variables';
+@import './assets/styles/main';
+
+.app-container {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
