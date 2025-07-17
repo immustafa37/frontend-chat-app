@@ -1,0 +1,20 @@
+/* Neumorphism Effects */
+.neumorphic {
+  border-radius: 10px;
+  background: linear-gradient(145deg, #e0c3fc, #8ec5fc);
+  box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.1),
+              -5px -5px 10px rgba(255, 255, 255, 0.5);
+}
+
+.neumorphic-pressed {
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1),
+              inset -2px -2px 5px rgba(255, 255, 255, 0.5);
+}
+
+.neumorphic-btn {
+  transition: all 0.2s ease;
+  
+  &:active {
+    @extend .neumorphic-pressed;
+  }
+}
