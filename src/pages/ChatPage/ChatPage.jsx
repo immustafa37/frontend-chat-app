@@ -5,17 +5,32 @@ import MessageForm from '../../components/MessageForm/MessageForm';
 import './ChatPage.scss';
 
 const ChatPage = () => {
-  const [messages, setMessages] = useState([
-    { id: 1, text: 'Hey there! 👋', avatar: 'https://i.pravatar.cc/150?img=5', isCurrentUser: false },
-    { id: 2, text: 'How are you doing today?', avatar: 'https://i.pravatar.cc/150?img=5', isCurrentUser: false },
-    { id: 3, text: "I'm good, thanks! How about you?", avatar: 'https://i.pravatar.cc/150?img=1', isCurrentUser: true },
-  ]);
+const [messages, setMessages] = useState([
+  { 
+    id: 1, 
+    text: 'Hey there! 👋', 
+    avatar: 'https://i.pravatar.cc/150?img=13',
+    isCurrentUser: false 
+  },
+  { 
+    id: 2, 
+    text: 'How are you doing today?', 
+    avatar: 'https://i.pravatar.cc/150?img=13',
+    isCurrentUser: false 
+  },
+  { 
+    id: 3, 
+    text: "I'm good, thanks! How about you?", 
+    avatar: 'https://i.pravatar.cc/150?img=13',
+    isCurrentUser: true 
+  },
+]);
 
-  const user = {
-    name: 'Sarah Johnson',
-    status: 'Online',
-    avatar: 'https://i.pravatar.cc/150?img=5'
-  };
+const user = {
+  name: 'David Wilson', // Male name
+  status: 'Online',
+  avatar: 'https://i.pravatar.cc/150?img=13'
+};
 
   const handleSendMessage = (message) => {
     const newMessage = {
