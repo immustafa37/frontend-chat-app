@@ -1,0 +1,26 @@
+@import '../../styles/variables';
+
+.chat-header {
+  padding: 15px 20px;
+  border-bottom: $glass-border;
+
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .user-details {
+      h3 {
+        margin: 0;
+        font-size: 1.1rem;
+        color: #333;
+      }
+
+      .status {
+        margin: 3px 0 0;
+        font-size: 0.8rem;
+        color: #666;
+      }
+    }
+  }
+}
