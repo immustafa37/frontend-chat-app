@@ -1,0 +1,31 @@
+/* Main SCSS Imports */
+@import '../../styles/variables';
+@import '_base';
+@import '_components';
+@import '_glassmorphism';
+@import '_neumorphism';
+
+/* Global Styles */
+body {
+  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+  min-height: 100vh;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(106, 90, 205, 0.5);
+  border-radius: 10px;
+  
+  &:hover {
+    background: rgba(106, 90, 205, 0.7);
+  }
+}
