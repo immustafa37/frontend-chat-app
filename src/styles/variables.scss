@@ -1,0 +1,31 @@
+// Glassmorphism
+$glass-bg: rgba(255, 255, 255, 0.25);
+$glass-border: 1px solid rgba(255, 255, 255, 0.18);
+$glass-blur: blur(12px);
+$glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+// Neumorphism
+$neumo-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1),
+               -5px -5px 10px rgba(255, 255, 255, 0.5);
+$neumo-shadow-inset: inset 2px 2px 5px rgba(0, 0, 0, 0.1),
+                    inset -2px -2px 5px rgba(255, 255, 255, 0.5);
+
+// Colors
+$primary-color: rgba(106, 90, 205, 0.7); // slateblue
+$white: #ffffff;
+$black: #333333;
+$gray: #666666;
+
+// Spacing
+$spacing-xs: 0.5rem;
+$spacing-sm: 1rem;
+$spacing-md: 1.5rem;
+$spacing-lg: 2rem;
+$spacing-xl: 3rem;
+
+// Border Radius
+$border-radius-sm: 5px;
+$border-radius-md: 10px;
+$border-radius-lg: 15px;
+$border-radius-xl: 20px;
+$border-radius-circle: 50%;
